@@ -1,6 +1,8 @@
 #include <time.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
+
 
 int extraMemoryAllocated;
 
@@ -8,7 +10,7 @@ int extraMemoryAllocated;
 // extraMemoryAllocated counts bytes of extra memory allocated
 void mergeSort(int pData[], int l, int r)
 {
-	
+    printf("Hello, world!");
 }
 
 // implement insertion sort
