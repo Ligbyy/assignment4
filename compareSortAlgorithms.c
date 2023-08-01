@@ -163,11 +163,18 @@ void printArray(int pData[], int dataSz)
 	}
 	printf("\n\n");
 }
+/*
+void printArr(int arr[],int n){
 
-
+    for (int i = 0; i < n;i++){
+        printf("%d\n",arr[i]);
+    }
+}
+*/
 int main(void)
 {
-/*
+
+    /*
     int arr[] = {24,15,4,9,20,57,19,1102,4753,234,12,456,453,};
 
     int size = sizeof(arr) / sizeof (arr[0]);
